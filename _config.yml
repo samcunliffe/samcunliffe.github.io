@@ -4,12 +4,9 @@ baseurl: ''
 
 # compass configuration
 compass:
-  # an avatar or logo (optional)
   logo: "/images/brassai.png"
-  # author will appear under the avatar (optional)
   author: "Sam Cunliffe"
-  # tagline will appear under the title (optional)
-  tagline: "flavour phyiscs / heavy metal / pizza"
+  tagline: "flavour physics / heavy metal / pizza"
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true

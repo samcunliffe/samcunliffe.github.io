@@ -1,12 +1,12 @@
 ---
 ---
 
-$text-color: #46433A;
-$anchor-text-color: #CE534D;
-$background-color: #F1EED9;
+$text-color: black;
+$anchor-text-color: royalblue;
+$background-color: white;
 
 body {
-	font-family: 'Vollkorn', serif;
+	font-family: 'Droid-Sans', sans-serif;
 	color: $text-color;
 	background-color: $background-color;
 }
@@ -22,14 +22,10 @@ main {
 }
 
 /*** anchor tags ***/
-a:link,
-a:visited,
-a:hover,
-a:active {
+a {
 	color: $anchor-text-color;
 	text-decoration: none;
 }
-
 a:hover {
 	text-decoration: underline;
 }
@@ -37,7 +33,6 @@ a:hover {
 
 /*** main content list ***/
 .main-list-item {
-	font-weight: bold;
 	font-size: 1.2em;
 	margin: 0.8em 0;
 }
@@ -72,7 +67,8 @@ since it must be aligned with the content */
 
 /*** author ***/
 .author-container h1 {
-	font-size: 2.8em;
+	font-size: 2.4em;
+	font-weight: normal;
 	margin-top: 0;
 	margin-bottom: 0;
 	text-align: center;
@@ -80,9 +76,10 @@ since it must be aligned with the content */
 
 /*** tagline ***/
 .tagline-container p {
-	font-size: 1.3em;
+	font-size: 1em;
 	text-align: center;
 	margin-bottom: 2em;
+	color: grey;
 }
 
 /******/

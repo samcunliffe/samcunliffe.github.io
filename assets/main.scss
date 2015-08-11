@@ -32,6 +32,22 @@ a:hover {
 
 
 /*** main content list ***/
+.dropdown-menu-item ul {
+	font-size: 1em;
+	padding-left: 1em;
+	height: 0px;
+	overflow: hidden;
+
+	/*Animation*/
+	-webkit-transition: height 2s ease;
+	-moz-transition: height 1s ease;
+	-o-transition: height 1s ease;
+	-ms-transition: height 1s ease;
+	transition: height 1.2s ease;
+}
+.dropdown-menu-item:hover ul {
+	height: 70px;
+}
 .main-list-item {
 	font-size: 1.2em;
 	margin: 0.8em 0;
@@ -59,10 +75,7 @@ since it must be aligned with the content */
 	height: 96px;
 	display: inline-block;
 	background-size: cover;
-	border-radius: 50%;
-	-moz-border-radius: 50%;
-	border: 2px solid $background-color;
-	box-shadow: 0 0 0 3px $text-color;
+	border-radius: 15%;
 }
 
 /*** author ***/
@@ -76,7 +89,7 @@ since it must be aligned with the content */
 
 /*** tagline ***/
 .tagline-container p {
-	font-size: 1em;
+	font-size: 0.9em;
 	text-align: center;
 	margin-bottom: 2em;
 	color: grey;
@@ -92,20 +105,6 @@ hr {
 	background-image: -o-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
 }
 
-/*** footer ***/
-footer {
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	height: 20px;
-}
-
-.poweredby {
-	font-family: "Arial Narrow", Arial;
-	font-size: 0.6em;
-	line-height: 0.6em;
-	padding: 0 5px;
-}
 
 /*** media queries ***/
 /* X-Small devices (phones, 480px and up) */

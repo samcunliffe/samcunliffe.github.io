@@ -30,8 +30,9 @@ a:hover {
 	text-decoration: underline;
 }
 
-
-/*** main content list ***/
+/* dropdown menu in ul environment accessed by hover
+   http://designshack.net/articles/css/verticalaccordionav/
+*/
 .dropdown-menu-item ul {
 	font-size: 1em;
 	padding-left: 1em;
@@ -48,6 +49,8 @@ a:hover {
 .dropdown-menu-item:hover ul {
 	height: 70px;
 }
+
+/*** main content list ***/
 .main-list-item {
 	font-size: 1.2em;
 	margin: 0.8em 0;

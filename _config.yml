@@ -14,7 +14,7 @@ compass:
 
 # Dependencies
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge # github uses rouge rather than pygments now
 
 # Permalinks
 permalink: pretty

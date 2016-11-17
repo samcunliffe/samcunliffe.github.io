@@ -5,7 +5,7 @@ baseurl: ''
 
 # compass configuration
 compass:
-  logo: "/images/brassai.png"
+  logo: "/images/shadowrock.png"
   author: "Sam Cunliffe"
   tagline: "flavour physics / heavy metal / pizza"
   # if include_content is true, the contents of the content.html include will be

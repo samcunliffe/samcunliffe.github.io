@@ -30,6 +30,11 @@ a:hover {
 	text-decoration: underline;
 }
 
+/*** table ***/
+th, td {
+  padding: 0 5px 0 0;
+}
+
 /* dropdown menu in ul environment accessed by hover
    http://designshack.net/articles/css/verticalaccordionav/
 */
